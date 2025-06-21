@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Station</title>
+    <link rel="stylesheet" href="project.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+    <link rel="icon" href="icon of project.jpg">
+</head>
+<body>
+    <!--header part -->
+    <!-- <--sidebar--> 
+ <div class="sidebar">
+        <!--logo-->
+        <h1 class="logo">Explore Item</h1>
+    
+        <!--list of menu-->
+
+    <div class="sidebar-menu">
+        <a href="C:/Users/Rohit/OneDrive/Documents/minor%20project/project.html#"><ion-icon name="storefront"></ion-icon>HOME </a>
+        <a href="#receipt"><ion-icon name="receipt"></ion-icon>BILLS </a>
+        <a href="#pizza"><ion-icon name="pizza"></ion-icon>pizza </a>
+        <a href="#content"><ion-icon name="chatbubbles"></ion-icon>CONTECT US </a>
+        <a href="#"><ion-icon name="settings"></ion-icon>SETTINGS </a>
+    </div>   
+    <!--logout-->
+    <div class="sidebar-logout">
+        <a href="#"><ion-icon name="log-out"></ion-icon>LOGOUT </a>
+
+    </div>
+ </div>
+
+
+ <!--end of header-->
+    <!--main-->
+    <div class="main">
+        <div class="main-navbar">
+            <ion-icon class="menu-toggle" name="menu-toggle"></ion-icon>
+            <!--search button-->
+            <div class="search">
+                <input type="text" placeholder="what do you eat?">
+                <button class="search-btn">search</button>
+            </div>
+            <!--profile on nav-->
+            <div class="profile">
+                <a href="#" class="cart"><ion-icon name="cart-outline"></ion-icon> </a>
+                <a href="#" class="user"><ion-icon name="person-outline"></ion-icon></a>
+            </div>
+        </div>
+    
+        <!--main content-->
+        <div class="main-highligt">
+            <div class="main-header">
+                <h2 class="main-titel">Recommedation</h2>
+                <!--forword and backwaord-->
+                <div class="main-arrow">
+                    <a href="#" class="back"><ion-icon name="arrow-back"></ion-icon></a>
+                    <a href="#" class="next" ><ion-icon name="arrow-forward"></ion-icon></a>
+                </div>
+            </div>
+            <!--highlight body image-->
+            <div class="highlight-fram">
+                <div class="highlight-cart">
+                    <img class="highlight-img" src="burger copy.jpg">
+                    <!--decoretor-->
+                    <div class="highlight-dec">
+                        <h3> Big Burger</h3>
+                        <p> $35</p>
+                    </div>
+                </div>
+                <div class="highlight-cart">
+                    <img class="highlight-img" src="dal tadaka.jpg">
+                    <!--decoretor-->
+                    <div class="highlight-dec">
+                        <h3>Dal tadka</h3>
+                        <p> $59</p>
+                    </div>
+                </div>
+                <div class="highlight-cart">
+                    <img class="highlight-img" src="shahi paneer image.jpg">
+                    <!--decoretor-->
+                    <div class="highlight-dec">
+                        <h3>Shahi Paneer</h3>
+                        <p> $69</p>
+                    </div>
+                </div>
+            
+                <div class="highlight-cart">
+                    <img class="highlight-img" src="pizza image.jpg">
+                    <!--decoretor-->
+                    <div class="highlight-dec">
+                        <h3> Larg Pizza</h3>
+                        <p> $89</p>
+                    </div>
+                </div>
+                <div class="highlight-cart">
+                    <img class="highlight-img" src="pizza image.jpg">
+                    <!--decoretor-->
+                    <div class="highlight-dec">
+                        <h3> Fruits</h3>
+                        <p> $49</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+<!--list od order menu-->
+        <div class="main-menus">
+            <div class="main-filter">
+                <div>
+                    <h2 class="main-title">Menu <br> Category </h2>
+                    <div class="main-arrow">
+                        <ion-icon class="back-menu" name="arrow-back"></ion-icon>
+                        <ion-icon class="next-menu" name="arrow-forward"></ion-icon>
+                    </div>
+                </div>
+                <div class="filter-wrapper">
+                    <div class="filter-cart">
+                        <div class="filter-icon">
+                            <ion-icon name="restaurant-outline"></ion-icon>
+                        </div>
+                        <p> All Menus</p>
+                    </div>
+                    <div class="filter-cart">
+                        <div class="filter-icon">
+                            <ion-icon name="fast-food-outline"></ion-icon>
+                        </div>
+                        <p>Burger</p>
+                    </div>
+                    <div class="filter-cart">
+                        <div class="filter-icon">
+                            <ion-icon name="pizza-outline"></ion-icon>
+                        </div>
+                        <p>Pizza</p>
+                    </div>
+                    <div class="filter-cart">
+                        <div class="filter-icon">
+                            <ion-icon name="ice-cream-outline"></ion-icon>
+                        </div>
+                        <p>ice Cream</p>
+                    
+                    </div>
+                    <div class="filter-cart">
+                        <div class="filter-icon">
+                            <ion-icon name="cafe-outline"></ion-icon>
+                        </div>
+                        <p>Coffee</p>
+                    
+                    </div>
+                    <div class="filter-cart">
+                        <div class="filter-icon">
+                            <ion-icon name="nutrition-outline"></ion-icon>
+                        </div>
+                        <p>Healthy</p>
+                    
+                    </div>
+                    <div class="filter-cart">
+                        <div class="filter-icon">
+                            <ion-icon name="heart-circle-outline"></ion-icon>
+                        </div>
+                        <p>Sweets</p>
+                    
+                    </div>
+                </div>
+
+            </div>
+            <!---list of menu-->
+            <hr class="divider">
+            <h2 class="main-title">Choose Order</h2>
+            <div class="main-detail">
+                 <div class="detail-card">
+                         <img class="detail-img" src="fruits image.jpg">
+                      <div class="detail-deco">
+                          <div class="datail-name">
+                              <h4|>Fresh-fruits</h4>
+                               <p class="deatil-sub">Fruits are a great source of essential vitamins and minerals.</p>
+                             <p class="price">$25.75</p>
+                         </div>
+                        <ion-icon class="favourite" name="bookmark-outline"></ion-icon>
+                     </div>
+                   </div>
+                   <section id="pizza">
+                <div class="detail-card">
+                        <img class="detail-img "src="pizza image.jpg">
+                     <div class="detail-deco">
+                        <div class="datail-name"> 
+                            <h4|>Pizza</h4>
+                            <p class="deatil-sub">pizza, dish of Italian origin consisting of a flattened disk etc.</p>
+                            <p class="price">$29.99</p>
+                         </div>
+                      <ion-icon class="favourite" name="bookmark-outline"></ion-icon>
+                    </div>
+                 </div>
+                </section>
+             <section id="burger">
+               <div class="detail-card" >
+                      <img class="detail-img "src="burger.jpg">
+                    <div class="detail-deco">
+                        <div class="datail-name"> 
+                             <h4>Large Burger</h4>
+                             <p class="deatil-sub">Burger, dish of Italian origin consisting of a flattened disk etc.</p>
+                             <p class="price">$29.99</p>
+                         </div>
+                       <ion-icon class="favourite" name="bookmark-outline"></ion-icon>
+                   </div>
+               </div>
+            </section>
+            </div>
+             <div class="main-detail">
+               <div class="detail-card">
+                     <a href="C:/Users/Rohit/OneDrive/Documents/minor%20project/show1.html"><img class="detail-img "src="dal tadaka.jpg"></a>
+                        <div class="detail-deco">
+                           <div class="datail-name"> 
+                               <h4>Dal tadka</h4>
+                                <p class="deatil-sub">dal tadka is indian favourite dish and ets also multi vitamins.</p>
+                                <p class="price">$79.99</p>
+                           </div>
+                        <ion-icon class="favourite" name="bookmark-outline"></ion-icon>
+                       </div>
+                 </div>
+               <div class="detail-card">
+                      <img class="detail-img "src="shahi paneer image.jpg">
+                         <div class="detail-deco">
+                           <div class="datail-name"> 
+                              <h4>Shahi paneer</h4>
+                               <p class="deatil-sub">Shahi paneer is indian favourite dish and ets also multi vitamins.</p>
+                                <p class="price">$89.99</p>
+                           </div>
+                      <ion-icon class="favourite" name="bookmark-outline"></ion-icon>
+                   </div>
+                </div>
+               <div class="detail-card">
+                 <img class="detail-img "src="manchurian image.jpg">
+                     <div class="detail-deco">
+                         <div class="datail-name"> 
+                             <h4>Manchurian</h4>
+                              <p class="deatil-sub">Its a popular indo-chinese dish .</p>
+                              <p class="price">$99.99</p>
+                         </div>
+                        <ion-icon class="favourite" name="bookmark-outline"></ion-icon>
+                     </div>
+               </div>
+            </div>
+            <!---second side of details-->
+         <div class="main-detail">
+            <div class="detail-card">
+                <img class="detail-img "src="gajer ka halawa.webp">
+                    <div class="detail-deco">
+                        <div class="datail-name"> 
+                            <h4>Gajar ka halwa</h4>
+                             <p class="deatil-sub">Its a popular  sweet  dish .</p>
+                             <p class="price">$49.99</p>
+                        </div>
+                       <ion-icon class="favourite" name="bookmark-outline"></ion-icon>
+                    </div>
+              </div>
+              <div class="detail-card">
+                <img class="detail-img "src="fafda.webp">
+                    <div class="detail-deco">
+                        <div class="datail-name"> 
+                            <h4> Fafda Jalebi</h4>
+                             <p class="deatil-sub">Its a popular Gujarati snaks it is a combination of sweet and salty falvors.</p>
+                             <p class="price">$29.99</p>
+                        </div>
+                       <ion-icon class="favourite" name="bookmark-outline"></ion-icon>
+                    </div>
+              </div>
+              <div class="detail-card">
+                <img class="detail-img "src="dal bati.webp">
+                    <div class="detail-deco">
+                        <div class="datail-name"> 
+                            <h4>DAl Bati</h4>
+                             <p class="deatil-sub">Dal Bati is treditional dish of state Rajasthan.</p>
+                             <p class="price">$20.99</p>
+                        </div>
+                       <ion-icon class="favourite" name="bookmark-outline"></ion-icon>
+                    </div>
+              </div>
+         </div>
+         <!--adding a sweets of cart-->
+         <div class="main-detail">
+            <div class="detail-card">
+                  <img class="detail-img "src="rasgulla.jpeg">
+                     <div class="detail-deco">
+                        <div class="datail-name"> 
+                            <h4>Rasgulla</h4>
+                             <p class="deatil-sub">Rasgulla is a popular,syrupy, white cheese based dessert.</p>
+                             <p class="price">$99.65</p>
+                        </div>
+                     <ion-icon class="favourite" name="bookmark-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="detail-card">
+                <img class="detail-img "src="kaju katli.webp">
+                   <div class="detail-deco">
+                      <div class="datail-name"> 
+                          <h4>Kaju-katli</h4>
+                           <p class="deatil-sub">popular sweet in india, its made to suger and cashew nuts.</p>
+                           <p class="price">$89.99</p>
+                      </div>
+                   <ion-icon class="favourite" name="bookmark-outline"></ion-icon>
+              </div>
+          </div>
+          <div class="detail-card">
+            <img class="detail-img "src="gulab-jamun.jpg">
+               <div class="detail-deco">
+                  <div class="datail-name"> 
+                      <h4>Gulab-jamun</h4>
+                       <p class="deatil-sub">its is a milk-solid- based sweet freom the indian subcontinent, popular in india.</p>
+                       <p class="price">$59.79</p>
+                  </div>
+               <ion-icon class="favourite" name="bookmark-outline"></ion-icon>
+          </div>
+      </div>
+    </div>
+         <!-- end of slide-->
+          
+<section id="content">
+         <!--footer-->
+         <footer>
+            <div class="footer-container">
+                <p>&copy; 2024 My Website | All rights reserved.</p>
+                           <p>&hearts; Test our food and give to feedback.</p>
+                        </a></li>
+
+                        <li><a href="#">About
+                            <p>&copy; 2024 My Website </p>
+                            <p>&hearts; Customer care</p>
+                        </a></li>
+                        
+                        <li><a href="#">Contact
+                            <p>&phone;+ 7089703042 </p>
+                            <p><ion-icon name="logo-instagram"></ion-icon> Follow on insta</p>
+
+                        </a></li>
+                    </ul>
+                </nav>
+            </div>
+         </footer>
+        </section>
+     </div>
+     
+</div>      <nav>
+                    <ul>
+                        <li><a href="#">Home
+                            <p>&copy; Visiting our side again.</p>
+           
+
+    
+ 
+
+</body>
+<script src="script.js"></script>
+<script src="project.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>
